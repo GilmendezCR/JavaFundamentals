@@ -15,7 +15,7 @@ public class TriviaQuiz {
         System.out.println(" d) Italy");
         String Answer = scanner.nextLine();
 
-        if(Answer.equals("c") || Answer.equals("C"))
+        if(Answer.equals("c") || Answer.equals("C") || Answer.equals("c)") || Answer.equals("C)" ))
         {
             Score = Score + 5;
         }
@@ -30,7 +30,7 @@ public class TriviaQuiz {
         System.out.println(" d) Mars");
         String AnswerTwo = scanner.nextLine();
 
-         if(AnswerTwo.equals("a") || AnswerTwo.equals("A"))
+         if(AnswerTwo.equals("a") || AnswerTwo.equals("A") || AnswerTwo.equals("a)") || AnswerTwo.equals("A)"))
         {
             Score = Score + 5;
         }
@@ -45,7 +45,7 @@ public class TriviaQuiz {
         System.out.println(" d) AB-Negative");
         String AnswerThree = scanner.nextLine();
 
-         if(AnswerThree.equals("d") || AnswerThree.equals("D"))
+         if(AnswerThree.equals("d") || AnswerThree.equals("D") || AnswerThree.equals("d)") || AnswerThree.equals("D)"))
         {
             Score = Score + 5;
         }
@@ -59,7 +59,7 @@ public class TriviaQuiz {
         System.out.println(" c) Draco Malfoy");
         String AnswerFour = scanner.nextLine();
 
-        if(AnswerFour.equals("a") || AnswerFour.equals("A") || AnswerFour.equals("b") || AnswerFour.equals("B") )
+        if(AnswerFour.equals("a") || AnswerFour.equals("A") || AnswerFour.equals("a)") || AnswerFour.equals("A)") || AnswerFour.equals("b") || AnswerFour.equals("B") || AnswerFour.equals("b)") || AnswerFour.equals("B)"))
         {
             Score = Score + 5;
         }
