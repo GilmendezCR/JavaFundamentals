@@ -20,7 +20,7 @@ public class TriviaQuiz {
             Score = Score + 5;
         }
         else{
-            System.out.println("Error");
+            System.out.println("Error. System just accepts the following answers: a - d , A - D , a) - d) , A) - D)");
         }
 
         System.out.println("2.Which planet is the hottest?");
@@ -35,7 +35,7 @@ public class TriviaQuiz {
             Score = Score + 5;
         }
         else{
-            System.out.println("Error");
+            System.out.println("Error. System just accepts the following answers: a - d , A - D , a) - d) , A) - D)");
         }
 
         System.out.println("3.What is the rearest blood type?");
@@ -50,7 +50,7 @@ public class TriviaQuiz {
             Score = Score + 5;
         }
         else{
-            System.out.println("Error");
+            System.out.println("Error. System just accepts the following answers: a - d , A - D , a) - d) , A) - D)");
         }
 
         System.out.println("4.Which country held the 2016 Summer Olympics?");
@@ -64,7 +64,7 @@ public class TriviaQuiz {
             Score = Score + 5;
         }
         else{
-            System.out.println("Error");
+            System.out.println("Error. System just accepts the following answers: a - d , A - D , a) - d) , A) - D)");
         }
         
         System.out.println("Your final score is:" + Score + " " + "/20");
