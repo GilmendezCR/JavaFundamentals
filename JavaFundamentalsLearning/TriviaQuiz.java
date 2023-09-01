@@ -15,12 +15,36 @@ public class TriviaQuiz {
         System.out.println(" d) Italy");
         String Answer = scanner.nextLine();
 
-        if(Answer.equals("c") || Answer.equals("C") || Answer.equals("c)") || Answer.equals("C)" ))
-        {
-            Score = Score + 5;
-        }
-        else{
-            System.out.println("Error. System just accepts the following answers: a - d , A - D , a) - d) , A) - D)");
+        switch (Answer) {
+            case "a":
+                System.out.println("Incorrect answer");
+                    break;
+            case "a)":
+                System.out.println("Incorrect answer");
+                break;
+            case "b":
+                System.out.println("Incorrect answer");
+                    break;
+            case "b)":
+                System.out.println("Incorrect answer");
+                    break;
+            case "c":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                    break;
+            case "c)":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                    break;
+            case "d":
+                System.out.println("Incorrect answer");
+                    break;
+            case "d)":
+                System.out.print("Incorrect answer");
+                    break;
+            default:
+                System.out.println("Error. System just accepts the following answers: a - d  , a) - d)");
+                break;
         }
 
         System.out.println("2.Which planet is the hottest?");
@@ -30,12 +54,36 @@ public class TriviaQuiz {
         System.out.println(" d) Mars");
         String AnswerTwo = scanner.nextLine();
 
-         if(AnswerTwo.equals("a") || AnswerTwo.equals("A") || AnswerTwo.equals("a)") || AnswerTwo.equals("A)"))
-        {
-            Score = Score + 5;
-        }
-        else{
-            System.out.println("Error. System just accepts the following answers: a - d , A - D , a) - d) , A) - D)");
+         switch (AnswerTwo) {
+            case "a":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                    break;
+            case "a)":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                break;
+            case "b":
+                System.out.println("Incorrect answer");
+                    break;
+            case "b)":
+                System.out.println("Incorrect answer");
+                    break;
+            case "c":
+                System.out.println("Incorrect answer");
+                    break;
+            case "c)":
+                System.out.println("Incorrect answer");
+                    break;
+            case "d":
+                System.out.println("Incorrect answer");
+                    break;
+            case "d)":
+                System.out.print("Incorrect answer");
+                    break;
+            default:
+                System.out.println("Error. System just accepts the following answers: a - d  , a) - d)");
+                break;
         }
 
         System.out.println("3.What is the rearest blood type?");
@@ -45,26 +93,69 @@ public class TriviaQuiz {
         System.out.println(" d) AB-Negative");
         String AnswerThree = scanner.nextLine();
 
-         if(AnswerThree.equals("d") || AnswerThree.equals("D") || AnswerThree.equals("d)") || AnswerThree.equals("D)"))
-        {
-            Score = Score + 5;
+         switch (AnswerThree) {
+            case "a":
+                System.out.println("Incorrect answer");
+                    break;
+            case "a)":
+                System.out.println("Incorrect answer");
+                break;
+            case "b":
+                System.out.println("Incorrect answer");
+                    break;
+            case "b)":
+                System.out.println("Incorrect answer");
+                    break;
+            case "c":
+                System.out.println("Incorrect answer");
+                    break;
+            case "c)":
+                System.out.println("Incorrect answer");
+                    break;
+            case "d":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                    break;
+            case "d)":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                    break;
+            default:
+                System.out.println("Error. System just accepts the following answers: a - d  , a) - d)");
+                break;
         }
-        else{
-            System.out.println("Error. System just accepts the following answers: a - d , A - D , a) - d) , A) - D)");
-        }
-
         System.out.println("4.Which country held the 2016 Summer Olympics?");
         System.out.println(" a) Ron Weasley");
         System.out.println(" b) Hermione Granger");
         System.out.println(" c) Draco Malfoy");
         String AnswerFour = scanner.nextLine();
 
-        if(AnswerFour.equals("a") || AnswerFour.equals("A") || AnswerFour.equals("a)") || AnswerFour.equals("A)") || AnswerFour.equals("b") || AnswerFour.equals("B") || AnswerFour.equals("b)") || AnswerFour.equals("B)"))
-        {
-            Score = Score + 5;
-        }
-        else{
-            System.out.println("Error. System just accepts the following answers: a - d , A - D , a) - d) , A) - D)");
+        switch (AnswerFour) {
+            case "a":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                    break;
+            case "a)":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                break;
+            case "b":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                    break;
+            case "b)":
+                System.out.println("Correct answer");
+                Score = Score + 5;
+                    break;
+            case "c":
+                System.out.println("Incorrect answer");
+                    break;
+            case "c)":
+                System.out.println("Incorrect answer");
+                    break;
+            default:
+                System.out.println("Error. System just accepts the following answers: a - c  , a) - c)");
+                break;
         }
         
         System.out.println("Your final score is:" + Score + " " + "/20");
